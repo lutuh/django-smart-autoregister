@@ -2,7 +2,7 @@ import six
 
 from django.contrib import admin
 from django.contrib.admin.sites import AlreadyRegistered
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.db.models import *
 from .django_helper import *
 
