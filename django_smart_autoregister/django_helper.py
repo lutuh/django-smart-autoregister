@@ -3,9 +3,10 @@
 Module to wrap dirty stuff of django core.
 """
 import django
+from django.core.exceptions import FieldDoesNotExist
 from django.db import models
 from django.db.models import *
-from django.db.models.fields import NOT_PROVIDED, AutoField, FieldDoesNotExist
+from django.db.models.fields import NOT_PROVIDED, AutoField
 from django.db.models.base import ModelBase
 from django.db.models.query import QuerySet
 
